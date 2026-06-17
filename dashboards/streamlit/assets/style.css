@@ -1,0 +1,57 @@
+/* Main Background */
+
+.stApp{
+    background: #F4F7FE;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white !important;
+}
+
+/* Headings */
+
+h1{
+    color:#111827 !important;
+    font-weight:700 !important;
+}
+
+h2,h3{
+    color:#1F2937 !important;
+}
+
+/* KPI Cards */
+
+[data-testid="metric-container"]{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+
+.stButton > button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    border-radius:10px;
+    height:45px;
+}
+
+/* Dataframe */
+
+[data-testid="stDataFrame"]{
+    background:white;
+}
+
+/* Alerts */
+
+.stAlert{
+    border-radius:15px;
+}
